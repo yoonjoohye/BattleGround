@@ -1,0 +1,20 @@
+fieldset{
+	color:black;
+    background-color: rgba(0,0,0,0.6);
+    border:0px;
+  }
+  table{
+    width:500px;
+    height:500px;
+    background-color:white;
+    border: 1px solid gray;
+    border-collapse:collapse;
+  }
+  input{
+     width:100px;
+height:35px;
+background-color: orange;
+border:0px;
+border-radius: 5px;
+color:white;
+  }

@@ -1,0 +1,30 @@
+
+ fieldset{
+  background-color: rgba(0,0,0,0.6);
+  border:0px;
+  color:white;
+  text-align:center;
+}
+
+input[type="text"]{
+  width:50%;
+  height:30px;
+  border:0px;
+  border-radius:5px;
+}
+textarea{
+  width:50%;
+  border-radius:10px;
+  border:0px;
+}
+input[type="button"],input[type="reset"]{
+   	width:100px;
+	height:35px;
+	background-color: orange;
+	border:0px;
+	border-radius: 5px;
+	color:white;
+	margin-left:5%;
+	margin-right:5%;
+}
+            

@@ -1,0 +1,67 @@
+body{
+  color:white;
+}
+ fieldset{
+   background-color: rgba(0,0,0,0.6);
+   border:0px;
+ }
+ img.i1{
+   width:200px;
+   height:200px;
+    background-color: #070707;
+ }
+ div#back{
+   background-color: gray;
+   width:200px;
+   height:15px;
+   text-align:left;
+ }
+ table{
+   width:200px;
+   border:1px solid #2A2A2A;
+ }
+ table th{
+   background-color: #2A2A2A;
+   width:80px;
+ }
+ @-webkit-keyframes color {
+       0% {
+           background-color:red;
+       }
+       30%{
+         background-color:yellow;
+       }
+       50%{
+         background-color:lightgreen;
+       }
+       70%{
+         background-color:skyblue;
+       }
+       100% {
+         background-color:purple;
+       }
+}
+  div#graph1{
+    height:100%;
+    -webkit-animation: color 1s infinite;
+    -webkit-transition: webkit-transform 3s;
+  }
+  div#graph2{
+    height:100%;
+    -webkit-animation: color 1s infinite;
+    -webkit-transition: webkit-transform 3s;
+  }
+  div#graph3{
+    height:100%;
+    -webkit-animation: color 1s infinite;
+    -webkit-transition: webkit-transform 3s;
+  }
+  input[type=submit]{
+  float:right;
+  width:100px;
+  height:35px;
+  background-color: orange;
+  border:0px;
+  border-radius: 5px;
+  color:white;
+  }

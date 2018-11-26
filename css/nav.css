@@ -1,0 +1,39 @@
+ul#all li{
+  display:inline-block;
+  margin-left:5%;
+  margin-right:5%;
+}
+ul#all li a:visited{
+  text-decoration:none;
+  color:#eeeeee;
+}
+ul#all li a:link{
+  text-decoration:none;
+  color:#eeeeee;
+}
+ul#all li a:hover{
+  color:orange;
+}
+ul#all li:hover{
+  -webkit-animation: ani 1s infinite;
+}
+@-webkit-keyframes ani {
+      0% {
+          -webkit-transform: scale(1);
+          -webkit-transform: rotate(-20deg);
+      }
+      30%{
+        -webkit-transform: rotate(20deg);
+      }
+      50%{
+        -webkit-transform: scale(1.1,1.1);
+        -webkit-transform: rotate(-20deg);
+      }
+      70%{
+        -webkit-transform: rotate(20deg);
+      }
+      100% {
+        -webkit-transform: scale(1);
+          -webkit-transform: rotate(-20deg);
+      }
+  }

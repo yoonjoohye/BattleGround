@@ -1,0 +1,11 @@
+article{
+  float:left;
+  position:relative;
+  width:70%;
+  margin-left:30px;
+  margin-bottom:20px;
+}
+video{
+	width:100%;
+	height:auto;
+}

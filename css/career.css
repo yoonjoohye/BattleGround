@@ -1,0 +1,38 @@
+
+div#aside1{
+	float:left;
+	margin-bottom: 20px;
+	margin-right:20px;
+	color:white;
+}
+fieldset{
+  background-color: rgba(0,0,0,0.6);
+  border:0px;
+}
+table#grade{
+  width:100%;
+  background-color:rgba(0,0,0,0.5);
+  border:0;
+  border-collapse: collapse;
+}
+details{
+  color:white;
+  font-size:30px;
+  color:white;
+  margin-bottom: 20px;
+}
+span#grade{
+  margin-left:200px;
+  font-size: 80pt;
+  font-weight:bold;
+  color:#FFBF00;
+  -webkit-transition: text-shadow 0.2s linear;
+  float:left;
+}
+span:hover{
+  text-shadow: 0 0 30px #F7F2E0;
+}
+table#grade input[type="button"]:hover{
+	color:#444444;
+	
+}

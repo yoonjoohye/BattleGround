@@ -1,0 +1,22 @@
+
+form{
+	background-color: rgba(0,0,0,0.6);
+	margin-bottom:100px;
+}
+table{
+	width:500px;
+	height:auto;
+	margin-bottom:30px;
+}
+table th{
+	border-bottom:2px solid white;
+}
+input[type="submit"]{
+  width:100px;
+  height:35px;
+  background-color: orange;
+  border:0px;
+  border-radius: 5px;
+  color:white;
+  margin-bottom:30px;
+}

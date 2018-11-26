@@ -1,0 +1,19 @@
+img.i{
+	width:120px;
+	height:100%;
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    50% {
+        -webkit-transform: scale(1.1,1.1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
