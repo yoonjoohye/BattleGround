@@ -1,13 +1,13 @@
 # BattleGround WEB
 
-배틀그라운드 아이템 정보(기본, 어드민으로 구성)
+> 배틀그라운드 아이템 정보(기본, 어드민으로 구성)
 
 최대한 교과서에 나오는 HTML 태그들과 CSS를 활용해서 개발하는 수행평가
 
 
 Skills
 -----------------------------------
-JSP + apache + MySQL + Javascript
+> JSP + apache + MySQL + Javascript
 
 
 ScreenShots
